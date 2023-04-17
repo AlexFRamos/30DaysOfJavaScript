@@ -1,14 +1,9 @@
-/* Crea el archivo datatypes.js y utilizar el
-operador "typeof" de JavaScript para comprobar 
-los diferentes tipos de datos. 
-Comprueba el tipo de datos de cada variable */
+/* let varString2 = 'Joniculis'
+let varBoolean = true
+let varIndefinida = 45
+let varNula = null
 
-const varString = "Abecedario";
-let varBoolean = true;
-let varIndefinida;
-let varNula = null;
-
-console.log(typeof(varString));
+console.log(typeof(varString2));
 console.log(typeof(varBoolean));
 console.log(typeof(varIndefinida));
-console.log(typeof(varNula));
+console.log(typeof(varNula)); */

@@ -10,26 +10,26 @@ let perrito
 let ciudadOrigen = "Quito"
 let paisOrigen = "Ecuador"
 let edad1 = 20
-const ecuatoriano = true
+const ecuatoriano = false
 
 /* Declara variables para almacenar 
 su nombre, apellido, estado civil, país 
 y edad en múltiples líneas */
 
-const name2="Alex"
+/* const name2="Alex"
 const lastName2="Jimenez"
 let estadoCivil2="Solterito y a la orden"
 let pais2="Ecuador"
-let edad2=30
+let edad2=30 */
 
 /* Declara variables para almacenar su nombre, apellido,
 estado civil, país y edad en una sola línea */
 
-let name="Alex",
+/* let name="Alex",
     lastName="Jimenez",
     estadoCivil="Solterito y a la orden",
     pais="Ecuador",
-    edad3=30;
+    edad3=30; */
 
 /*  Declara dos variables miEdad y tuEdad y asígneles 
     valores iniciales y regístrese 
@@ -43,4 +43,3 @@ let name="Alex",
 
     console.log("Tengo"+" "+miEdad+" "+"años");
     console.log("Tu tienes"+" "+tuEdad+" "+"años");
-    alert("Funciona")

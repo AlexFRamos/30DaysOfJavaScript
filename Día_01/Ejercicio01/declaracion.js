@@ -22,7 +22,7 @@ let estadoCivil2="Solterito y a la orden"
 let pais2="Ecuador"
 let edad2=30 */
 
-/* Declara variables para almacenar su nombre, apellido,
+/* Declara variables para almacenar su nombre, apellido,,.
 estado civil, país y edad en una sola línea */
 
 /* let name="Alex",

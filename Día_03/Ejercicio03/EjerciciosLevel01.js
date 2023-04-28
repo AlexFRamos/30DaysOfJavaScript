@@ -78,6 +78,42 @@ console.log(
         console.log(longitud1 == longitud2)
 
 // Calcule primero el resultado de las siguientes expresiones sin usar console.log(). Después de decidir el resultado, confirmelo usando console.log()
-        
+    // 4 > 3 && 10 < 12
+    //   V         V = V
+    // 4 > 3 && 10 > 12
+    //   V         F = F
+    // 4 > 3 || 10 < 12
+    //   V         V = V
+    // 4 > 3 || 10 > 12
+    //   V         F = V
+    // !(4 > 3)
+    //     V         = F
+    // !(4 < 3)
+    //     F         = V
+    // !(false)
+    //     V
+    // !(4 > 3 && 10 < 12)
+    //     V         V = F
+    // !(4 > 3 && 10 > 12)
+    //     V         F = V
+    // !(4 === '4')
+    //      F          = V
+    // No hay 'on' tanto en dragon como en python
+    //      F
+
+// Utilice el objeto Date para realizar las siguientes actividades
+    let tiempo = new Date();
+    // ¿Qué año es hoy?
+        let ano = tiempo.getFullYear();
+        console.log(ano)
+    // ¿Qué mes es hoy con un número?
+    // ¿Qué fecha es hoy?
+    // ¿Qué día es hoy con un número?
+    // ¿Cuál es la hora actual?
+    // ¿Cuántos minutos hay actualmente?
+    // Averigüe el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.
+
+
+
 
 

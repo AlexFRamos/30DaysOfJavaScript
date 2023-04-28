@@ -103,15 +103,28 @@ console.log(
 
 // Utilice el objeto Date para realizar las siguientes actividades
     let tiempo = new Date();
+
     // ¿Qué año es hoy?
         let ano = tiempo.getFullYear();
-        console.log(ano)
+        console.log("El año es:"+ ano)
+
     // ¿Qué mes es hoy con un número?
+        let mes =  tiempo.getMonth();
+        console.log("El mes es:"+ mes)
+
     // ¿Qué fecha es hoy?
+        console.log("La fecha de hoy es: "+ tiempo)
+
     // ¿Qué día es hoy con un número?
+        let dia = tiempo.getDay();
+
     // ¿Cuál es la hora actual?
+        let hora = tiempo.getHours();
     // ¿Cuántos minutos hay actualmente?
+        let minutos = tiempo.getMinutes();
     // Averigüe el número de segundos transcurridos desde el 1 de enero de 1970 hasta ahora.
+        let segundos = tiempo.getSeconds();
+        
 
 
 

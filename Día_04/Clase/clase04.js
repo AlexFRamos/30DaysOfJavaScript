@@ -55,3 +55,34 @@
             
             break;
     }
+
+    // Ejercicios 
+        let dayUserInput = prompt("¿que día es hoy?")
+        let day = dayUserInput.toLocaleLowerCase();
+
+        switch (day) {
+            case "lunes":
+                console.log("Hoy es Lunes");
+                break;
+            case "martes":
+                console.log("Hoy es Martes");
+                break;
+            case "miercoles":
+                console.log("Hoy es Miércoles");
+                break;
+            case "jueves":
+                console.log("Hoy es Jueves");
+                break;
+            case "viernes":
+                console.log("Hoy es Viernes");
+                break;
+            case "sabado":
+                    console.log("Hoy es Sábado");
+                    break;
+            case "domingo":
+                    console.log("Hoy domingo");
+                    break;
+            default:
+                console.log("No es un día de semana");
+                ;
+        }

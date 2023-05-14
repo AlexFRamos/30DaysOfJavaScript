@@ -86,3 +86,7 @@
                 console.log("No es un día de semana");
                 ;
         }
+
+// Operadores Ternarios
+    let isRaining2 = true;
+    isRaining2 ? console.log("Necesitas un impermeable") : console.log("No hay necesidad de un impermeable.");    

@@ -127,6 +127,65 @@
     // Array, length, concat, indexOf, slice, splice, join, toString, includes, lastIndexOf, isArray, fill, push, pop, shift, unshift.
          
     // Constructor de arrays
+        const arr6= Array(); // crea un array vacío
+        console.log(arr6);
+    
+        const eightEmptyValues = Array(8); // crea ocho valores vacíos
+        console.log(eightEmptyValues); // [empty x 8]
+    
+    // Creando valores estáticos con fill
+        const arr7 = Array();
+        console.log(arr7);
+
+        const ochoValores = Array(8).fill("x");
+        console.log(ochoValores);
+        
+        const ocho0Valores =Array(8).fill("0");
+        console.log(ocho0Valores);
+
+        const cuatroValores = Array(4).fill("4");
+        console.log(cuatroValores);
+        
+    // Concatenación de arrays usando concat
+              const firstList = [1,2,3];
+              const secondList = [4,5,6];
+              const thirdList = firstList.concat(secondList);
+                console.log(thirdList);
+
+              const fruits3 = ["Banana", "Orange", "Mango", "Lemon"];
+              const vegetables3 = ["Tomato", "Potato", "Cabbage", "Onion", "Carrot"];
+              const fruits3AndVegetables3 = fruits3.concat(vegetables3);
+                console.log(fruits3AndVegetables3);
+                
+    // Obtener la longitud de array
+              const numbers4 = [1,2,3,4,5];
+                console.log(numbers4.length);
+    
+    // Obtener el index de un elemento en un array
+        // Verifica si un elemento existe en un array. Si existe, devuelve el index, de lo contrario devuelve -1
+            const numbers5 = [1,2,3,4,5];
+                console.log(numbers5.indexOf(5));
+                console.log(numbers5.indexOf(0));
+                console.log(numbers5.indexOf(1));
+                console.log(numbers5.indexOf(6));
+                
+    // Comprobar si un elemento existe en un array
+        // Comprobar elementos en una lista
+              const fruits5 = ["banana", "orange", "mango", "lemon"];
+              let index2 = fruits5.indexOf("banana");
+                if (index2===-1) {
+                    console.log("Esta fruta no existe en el array");
+                } else {
+                    console.log("Esta fruta existe en el array");
+                    
+                }
+                //Usando el ternario
+                index2===-1 ? console.log("Esta fruta no existe en el array") : console.log("Esta fruta existe en el array");
+
+    // Obtener el último index de un elemento en un array
+        // lastIndexOf
+        
+    
      
             
 

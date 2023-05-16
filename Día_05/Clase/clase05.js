@@ -184,7 +184,135 @@
 
     // Obtener el último index de un elemento en un array
         // lastIndexOf
+                const numbers6 = [1,2,3,4,5,3,1,2];
+                console.log(numbers6.lastIndexOf(2));
+                console.log(numbers6.lastIndexOf(0));
+                console.log(numbers6.lastIndexOf(1));
+                console.log(numbers6.lastIndexOf(4));
+                console.log(numbers6.lastIndexOf(6));
+
+    // Includes: para verificar si un elemento existe en un array. Si existe, devuelve true, de lo contrario devuelve false.
+                const numbers7 = [1,2,3,4,5];
+                console.log(numbers7.includes(5));
+                console.log(numbers7.includes(0));
+                console.log(numbers7.includes(1));
+                console.log(numbers7.includes(6));
+
+const webTechs3 = [
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Redux",
+  "Node",
+  "MongoDB",
+];
+    console.log(webTechs3.includes("Node"));
+    console.log(webTechs3.includes("C"));
+
+// Convertir array a string
+    // toString: Convierte un array a string
+        const numbers8 = [1,2,3,4,5];
+            console.log(numbers.toString());
+
+        const names = ["Asabeneh", "Mathias", "Elias", "Brook"];
+            console.log(names.toString());
+
+// Unir elementos de un array
+    // join: Se usa para unir los elementos del array
+        const numbers9 = [1,2,3,4,5];
+            console.log(numbers9.join());
+
+        const names2 = ["Asabeneh", "Mathias", "Elias", "Brook"];
+            console.log(names2.join());
+            console.log(names2.join(""));
+            console.log(names2.join(" "));
+            console.log(names2.join(", "));
+            console.log(names2.join("# "));
+
+// Cortar elementos de un array
+    // Slice: Para cortar varios elementos en el rango.
+        const num = [1,2,3,4,5];
+            console.log(num.slice());
+            console.log(num.slice(0));
+            console.log(num.slice(0, num.length));
+            console.log(num.slice(1,4));
         
+// Método splice en un array
+    // Splice: Toma tres parámetros: posición incial, número de elementos a eliminar y cantidad de elementos que se agregarán.
+        const numb = [1,2,3,4,5];
+            numb.splice();
+            console.log(numb);
+            
+// Agrega elementos a un array usando push
+ // agrega elementos al final
+    const arr9 = ["Item1", "Item2", "Item3"];
+    arr9.push("New item");
+        console.log("Arreglo modificado: "+arr9);
+        
+// Eliminar el último elemento final (pop)
+    const numero = [1,2,3,4,5];
+    numero.pop();
+        console.log(numero);
+    
+// Eliminar elemento al principio (shift)
+    const numero1 = [1,2,3,4,5];
+    numero1.shift();
+        console.log(numero1);
+
+// Añade un elemento al inicio (unshift)
+    const num1 = [1,2,3,4,5];
+    num1.unshift(0);
+        console.log(num1);
+
+// Invertir orden de un array (reverse)
+    const n1 = [5,6,7,8,9];
+    n1.reverse();
+        console.log(n1);
+
+// Ordenar elementos en un array (sort)
+    const tecno = ["HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Redux",
+    "Node",
+    "MongoDB",];
+    tecno.sort();
+        console.log(tecno);
+    tecno.reverse();
+        console.log(tecno);
+        
+// Array de arrays
+    const primerNum = [1,2,3];
+    const segunNum = [4,5,6];
+
+    const arregloDEArreglo = [
+        [1,2,3],
+        [7,8,9]
+    ]
+        console.log(arregloDEArreglo[0]);
+
+    const front = ["Html", "Css", "Html"];
+    const back = ["Java", "Python", "C++"];
+    const full = [front, back];
+        console.log(full);
+        console.log(full.length);
+        console.log(full[0]);
+        console.log(full[1]);
+
+        
+        
+        
+
+        
+        
+    
+
+            
+            
+        
+    
     
      
             

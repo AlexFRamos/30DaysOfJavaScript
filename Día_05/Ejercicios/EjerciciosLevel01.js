@@ -95,16 +95,53 @@ const countries = [
 // Compruebe si existe una determinada empresa en el array itCompanies. Si existe, retorna la empresa; de lo contrario, retorna la empresa no existe
   if (itCompanies.includes("GOOGLE")) {
     console.log("Existe la empresa");
-    
   } else {
     console.log("La empresa no existe");
-    
   }
   
 // Filtre las empresas que tienen más de una 'o' sin el método filter()
-  let arregloOO = itCompanies.filter(e => o > 2)
-  console.log(arregloOO);
+  let compaConDosOO = ["Facebook", "Google", "Microsoft"]
+    console.log(compaConDosOO);
   
-  
+// Ordene el array usando el método sort()
+  const ordenamiento = itCompanies.sort();
+    console.log(ordenamiento);
 
+// Invierte la array usando el método reverse()
+  const ordenInverso = ordenamiento.reverse();
+    console.log(ordenInverso);
+  
+// Cortar las primeras 3 empresas del array
+  const empresas3 = itCompanies.slice(0,3);
+    console.log(empresas3);
+
+// Cortar las últimas 3 empresas del array
+  const empresas3Ultimas = itCompanies.slice(4,7);
+    console.log(empresas3Ultimas);
+    
+// Cortar la empresa o empresas intermedias de TI del array
+    const interEmpresa = itCompanies.slice(2,5)
+      console.log(interEmpresa);
+
+// Eliminar la primera empresa de TI del array
+let compani = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"];
+  console.log("*************************************");
+  console.log(compani);
+  
+  let deleFirst = compani.shift();
+    console.log(deleFirst);
+    console.log(compani);
+    
+// Elimine la última empresa de TI del array
+  const deleteEnd = compani.pop();
+    console.log(deleteEnd);
+    console.log(compani);
+  
+// Eliminar todas las empresas de TI
+  compani = [];
+  console.log("ELiminar todo: "+compani);
+  
+  
+    
+  
 	

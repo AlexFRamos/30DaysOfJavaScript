@@ -12,4 +12,3 @@ const countries = [
     "Kenya",
   ];
 
-  export {countries};

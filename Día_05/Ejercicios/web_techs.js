@@ -7,5 +7,3 @@ const webTechs = [
     "Node",
     "MongoDB",
   ];
-
-  export {web_techs};
